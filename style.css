@@ -10,9 +10,9 @@
   --color-text-dark: rgb(3, 1, 1);
   --color-text-muted: rgb(26, 13, 13);
   --color-brand-primary: black;
-  --color-brand-accent: darkblue;
+  --color-brand-accent: rgb(255, 148, 164);
   --color-border: lightblue;
-  --color-focus: blue;
+  --color-focus: rgb(206, 206, 255);
   --font-family-base: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   --font-size-sm: 0.875rem;  
   --font-size-base: 1rem;    
