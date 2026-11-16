@@ -10,7 +10,7 @@
 </head>
 <body>
 
-   <a href="#main-content">Skip to main content</a>
+   <a href="#main-content" class="skip-link">Skip to main content</a>
 
     <header>
         <a href="index.html">
@@ -27,7 +27,7 @@
         </nav>
     </header>
 
-    <main id="maincontent">
+    <main id="main-content">
 
         <section id="inquiry">
             <h2>Inquire Now</h2>
@@ -85,40 +85,37 @@
 
         <section id="rates">
             <h2>Service Rates</h2>
-
-            <table>
-                <caption>Photography Package Rates</caption>
-
-                <thead>
-                    <tr>
-                        <th scope="col">Package Name</th>
-                        <th scope="col">Starting Rate</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <th scope="row">Portrait Package</th>
-                        <td>$250</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Event Package</th>
-                        <td>$600</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Landscape Fine Art Print</th>
-                        <td>$100</td>
-                    </tr>
-                </tbody>
-
-                <tfoot>
-                    <tr>
-                        <!-- colspan="2" spans across Package Name and Starting Rate columns -->
-                        <th scope="row" colspan="2">Standard Booking Retainer Required For All Services</th>
-                        <td>$50</td>
-                    </tr>
-                </tfoot>
-            </table>
+            <div class="table-wrapper">
+              <table>
+                  <caption>Photography Package Rates</caption>
+                  <thead>
+                      <tr>
+                          <th scope="col">Package Name</th>
+                          <th scope="col">Starting Rate</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <th scope="row">Portrait Package</th>
+                          <td>$250</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">Event Package</th>
+                          <td>$600</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">Landscape Fine Art Print</th>
+                          <td>$100</td>
+                      </tr>
+                  </tbody>
+                  <tfoot>
+                      <tr>
+                          <th scope="row">Standard Booking Retainer Required For All Services</th>
+                          <td>$50</td>
+                      </tr>
+                  </tfoot>
+              </table>
+            </div>
         </section>
 
     </main>
